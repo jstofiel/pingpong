@@ -1,0 +1,25 @@
+.jumbotron {
+  text-align: center;
+  background-color: orange;
+}
+
+.row {
+  text-align: left;
+  display: inline;
+}
+
+#header {
+  text-align: center;
+}
+#header2 {
+  text-align: center;
+}
+
+#well1 {
+  padding-left: 25px;
+}
+
+#well2 {
+  padding-left: 35px;
+  padding-top: 40px;
+}

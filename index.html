@@ -11,8 +11,39 @@
   <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Ping Pong</h1>
+        <h1>Ping-Pong</h1>
       </div><!--end jumbotron-->
+      <div class="row">
+        <div class="col-sm-5" id="rules">
+          <div class="well" id="well1">
+            <h3 id="header">Let's play this game!</h3>
+            <h5 id="header2">Input a number and Ping-Pong will count up to your number by 1 with the following expceptions:</h5>
+            <ol>
+              <li>Numbers divisible by 3 are replaced with "ping"</li>
+              <li>Numbers divisible by 5 are replaced with "pong"</li>
+              <li>Numbers divisible by 15 are replaced with "ping-pong"</li>
+            </ol><!--end of organizedlist-->
+          </div><!--end well1-->
+        </div><!--end column1-->
+      </div><!--end row1-->
+      <div class="input">
+        <div class="row">
+          <div class="col-sm-6" id="input">
+            <div class="well" id="well2">
+              <div class="form-group">
+                <label for="number">Input your number:</label>
+                <input id="number"type="text" name="name">
+                <button id="submit" class="btn btn-success">Submit Here</button>
+                <button id="reset" class="btn btn-danger" onclick="window.location.reload()">Reset</button>
+              </div><!--end form-->
+              <div id="results">
+                <ul id="list">
+                </ul>
+              </div>
+            </div><!--end well2-->
+          </div><!--end column2-->
+        </div><!--end row2-->
+      </div><!--end input-->
     </div><!--endcontainer-->
   </body>
 </html>
