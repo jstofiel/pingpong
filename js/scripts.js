@@ -11,6 +11,10 @@ $(function() {
 
 // Logic below
 function divisible(userInput) {
+
+    for (var i = 0; i < userInput; i++) {
+      alert(i)
+
     if( userInput % 3 == 0 ) {
         alert("ping");
     }
@@ -19,5 +23,7 @@ function divisible(userInput) {
     }
     if( userInput % 15 == 0 ) {
         alert("ping-pong");
+
     }
   }
+}
