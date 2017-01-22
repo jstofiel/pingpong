@@ -14,7 +14,9 @@
         <h1>Ping-Pong</h1>
       </div><!--end jumbotron-->
       <div class="row">
-        <div class="col-sm-5" id="rules">
+        <div class="col-sm-3">
+        </div><!--spacing div-->
+        <div class="col-sm-6">
           <div class="well" id="well1">
             <h3 id="header">Let's play this game!</h3>
             <h5 id="header2">Input a number and Ping-Pong will count up to your number by 1 with the following expceptions:</h5>
@@ -28,14 +30,18 @@
       </div><!--end row1-->
       <div class="input">
         <div class="row">
-          <div class="col-sm-6" id="input">
+          <div class="col-sm-3">
+          </div><!--spacing div-->
+          <div class="col-sm-6">
             <div class="well" id="well2">
-              <div class="form-group">
-                <label for="number">Input your number:</label>
-                <input id="number"type="text" name="name">
-                <button id="submit" class="btn btn-success">Submit Here</button>
-                <button id="reset" class="btn btn-danger" onclick="window.location.reload()">Reset</button>
-              </div><!--end form-->
+              <form id="form1">
+                <div class="form-group">
+                  <label>Input your number:</label>
+                  <input id="input-user">
+                  <button id="enter" class="btn btn-success">Submit Here</button>
+                  <button id="reset" class="btn btn-danger" onclick="window.location.reload()">Reset</button>
+                </div><!--end form-group-->
+              </form><!--end form1-->
               <div id="results">
                 <ul id="list">
                 </ul>
